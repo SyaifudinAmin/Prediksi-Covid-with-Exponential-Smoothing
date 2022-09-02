@@ -1,0 +1,47 @@
+.main{
+    flex: 1;
+    border: 0.5px solid rgb(148, 211, 232);
+    min-height: 100vh;
+    background-color: white;
+    .top{
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        
+        .logo{
+            padding: 5px 15px;
+            font-size: 20px;
+            font-weight: bold;
+            color: blue;
+          
+            
+        }
+        .login1{
+            padding: 5px 15px;
+            // float: right;
+            font-size: 20px;
+            font-weight: bold;
+            color: blue;
+        }
+    }
+
+    hr{
+        height: 0;
+        border: 0.5px solid rgb(148, 211, 232);
+    }
+
+    .mainContainer{
+        flex: 6;
+  
+        .widgets, .charts{
+          display: flex;
+          padding: 20px;
+          gap: 20px;
+        }
+  
+        .charts {
+          padding: 5px 20px;
+        }
+    }
+}
